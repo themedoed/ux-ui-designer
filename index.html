@@ -7,189 +7,240 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@500;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="images/favicon.ico">
-  <title>UX|UI Designer</title>
+  <title>Куба</title>
 </head>
 
 <body>
 
-  <nav class="menu">
-    <div class="container">
-      <ul class="menu__list">
-        <li><a class="menu__list-item" href="#home">Home</a></li>
-        <li><a class="menu__list-item" href="#about">About me</a></li>
-        <li><a class="menu__list-item" href="#skills">Skills</a></li>
-        <li><a class="menu__list-item" href="#portfolio">Portfolio</a></li>
-        <li><a class="menu__list-item" href="#contacts">Contacts</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <section class="home" id="home">
-    <div class="container">
-      <div class="home__info">
-        <h1 class="home-title">
-          Denis<br>
-          Novik
+  <!-- Первый экран и шапка -->
+  <header class="header">
+    <!-- Первый экран -->
+    <div class="header__top">
+      <div class="header__top-inner">
+        <h1 class="header__title">
+          Куба
         </h1>
-        <p class="home-text">
-          UX | UI designer<br>
-          24 years old, Minsk
+        <p class="header__text">
+          Explore the world of Casas & Cadillacs
         </p>
-        <img class="home-language" src="images/language.svg" alt="Language">
-      </div>
-
-      <div class="home__slider">
-        <img class="home__slider-item" src="images/slider/silde1.jpg" alt="Slide">
-        <img class="home__slider-item" src="images/slider/silde2.jpg" alt="Slide">
-        <img class="home__slider-item" src="images/slider/silde3.jpg" alt="Slide">
-        <img class="home__slider-item" src="images/slider/silde4.jpg" alt="Slide">
-        <img class="home__slider-item" src="images/slider/silde5.jpg" alt="Slide">
-        <img class="home__slider-item" src="images/slider/silde6.jpg" alt="Slide">
       </div>
     </div>
-  </section>
-
-  <section class="about" id="about">
-    <div class="container">
-      <h2 class="about-title">About me</h2>
-      <p class="text">
-        Hi, I'm Denis – UX/UI designer from Minsk.<br>
-        I'm interested in design and everything connected with it.
-        <br><br>
-        I'm studying at courses "Web and mobile design <br>
-        interfaces" in IT-Academy.
-        <br><br>
-        Ready to implement excellent projects<br>
-        with wonderful people.
-      </p>
-    </div>
-  </section>
-
-  <section class="skills" id="skills">
-    <div class="container">
-      <div class="skills__info">
-        <h2 class="skills-title">Skills</h2>
-        <p class="text">I work in such programs as</p>
+    <!-- Шапка -->
+    <nav class="menu">
+      <div class="menu__btn">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-
-      <div class="skills__slider">
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/ae.png" alt="Program">
-          <p class="skills__slider-item--text">Adobe Effects</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting1.svg" alt="Rating">
-        </div>
-
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/ai.png" alt="Program">
-          <p class="skills__slider-item--text">Adobe Illustrator</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting2.svg" alt="Rating">
-        </div>
-
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/figma.png" alt="Program">
-          <p class="skills__slider-item--text">Figma</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting1.svg" alt="Rating">
-        </div>
-
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/lr.png" alt="Program">
-          <p class="skills__slider-item--text">Adobe Lightroom</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting2.svg" alt="Rating">
-        </div>
-
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/pr.png" alt="Program">
-          <p class="skills__slider-item--text">Adpbe Premiere</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting1.svg" alt="Rating">
-        </div>
-
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/ps.png" alt="Program">
-          <p class="skills__slider-item--text">Adobe Photoshop</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting2.svg" alt="Rating">
-        </div>
-
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/sketch.png" alt="Program">
-          <p class="skills__slider-item--text">Sketch</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting1.svg" alt="Rating">
-        </div>
-
-        <div class="skills__slider-item">
-          <img class="skills__slider-item--img" src="images/skills__slider/xd.png" alt="Program">
-          <p class="skills__slider-item--text">Adobe XD</p>
-          <img class="skills__slider-item--rate" src="images/skills__slider/raiting2.svg" alt="Rating">
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <h2 class="portfolio-title">Portfolio</h2>
-      <div class="portfolio__item">
-        <img class="portfolio__item-img" src="images/portfolio/port1.jpg" alt="Online fashion store">
-        <a class="portfolio__item-link" href="#">Online fashion store - Homepage</a>
-      </div>
-      <div class="portfolio__item">
-        <img class="portfolio__item-img" src="images/portfolio/port2.jpg" alt="Reebok Store">
-        <a class="portfolio__item-link" href="#">Reebok Store - Concept</a>
-      </div>
-      <div class="portfolio__item">
-        <img class="portfolio__item-img" src="images/portfolio/port3.jpg" alt="Braun Landing Page">
-        <a class="portfolio__item-link" href="#">Braun Landing Page - Concept</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="contacts" id="contacts">
-    <div class="container">
-      <h2 class="contacts__title">Contacts</h2>
-      <p class="text">
-        Want to know more or just chat?<br>
-        You are welcome!
-      </p>
-      <button class="contacts__btn">Send message</button>
-      <ul class="contacts__links">
-        <li class="contacts-link">
-          <a href="#">
-            <img src="images/links/link1.svg" alt="Link">
-          </a>
-        </li>
-        <li class="contacts-link">
-          <a href="#">
-            <img src="images/links/link2.svg" alt="Link">
-          </a>
-        </li>
-        <li class="contacts-link">
-          <a href="#">
-            <img src="images/links/link3.svg" alt="Link">
-          </a>
-        </li>
-        <li class="contacts-link">
-          <a href="#">
-            <img src="images/links/link4.svg" alt="Link">
-          </a>
-        </li>
+      <ul class="menu__items">
+        <li><a class="menu__item" href="#">Резюме</a></li>
+        <li><a class="menu__item" href="#">Главная</a></li>
+        <li><a class="menu__item" href="#">Виды</a></li>
+        <li><a class="menu__item" href="#">Погода</a></li>
+        <li><a class="menu__item" href="#">Что сделать</a></li>
+        <li><a class="menu__item" href="#">Резиденции</a></li>
+        <li><a class="menu__item" href="#">Фото</a></li>
       </ul>
-      <p class="contacts-text">
-        Like me on<br>
-        LinkedIn, Instagram, Behance, Dribble
+    </nav>
+  </header>
+
+  <!-- Преимущества -->
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits__info">
+        <h2 class="title">Почему тебе понравится отпуск на Кубе?</h2>
+        <p class="text">Куба всегда была привлекательна. Я люблю ее за уникальность, креативность и дух
+          выживания. Я люблю Кубу потому, что несмотря на 60 лет неудач, она остается оптимистичным и открытым местом.
+          Пройдите по улице с кубинским другом, и в одном квартале вы получите пять рукопожатий, четыре поцелуя, три
+          приветствия «Диме Хермано!» И по крайней мере два приглашения в чей-то дом.
+        </p>
+        <div class="benefits__info-link">
+          <a href="#">Read More ››</a>
+        </div>
+      </div>
+      <div class="benefits__icons">
+        <div class="benefits__icons-item">
+          <img class="benefits__icons-item-img" src="images/benefits/route.svg" alt="Trips">
+          <p class="benefits__icons-item-num">
+            1,920
+          </p>
+          <p class="benefits__icons-item-text">
+            Trips
+          </p>
+        </div>
+        <div class="benefits__icons-item">
+          <img class="benefits__icons-item-img" src="images/benefits/restaurant.svg" alt="Venues">
+          <p class="benefits__icons-item-num">
+            271
+          </p>
+          <p class="benefits__icons-item-text">
+            Venues
+          </p>
+        </div>
+        <div class="benefits__icons-item">
+          <img class="benefits__icons-item-img" src="images/benefits/transport.svg" alt="Tickets Sold">
+          <p class="benefits__icons-item-num">
+            Tickets Sold
+          </p>
+          <p class="benefits__icons-item-text">
+            3,321
+          </p>
+        </div>
+        <div class="benefits__icons-item">
+          <img class="benefits__icons-item-img" src="images/benefits/interface.svg" alt="Reviews">
+          <p class="benefits__icons-item-num">
+            2,912
+          </p>
+          <p class="benefits__icons-item-text">
+            Reviews
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Куба - это.. -->
+  <section class="def">
+    <div class="container">
+
+      <div class="def__info">
+        <h2 class="title">
+          Куба - это...
+        </h2>
+        <p class="text">
+          Куба похожа на принца в плаще бедняка; за иногда ветхими фасадами задерживается золотая пыль. Именно эти
+          богатые
+          дихотомии делают путешествие здесь захватывающим. В этой стране, застрявшей во временном перекосе и шокирующей
+          экономическим эмбарго, которое длилось более полувека, вы можете распрощаться с повседневными предположениями
+          и
+          ожидать неожиданностей.
+        </p>
+      </div>
+
+      <div class="about__item" style="background-image: url('images/cubais1.jpg');">
+        <div class="about__box">
+          <h3 class="about__box-title">
+            Историческое наследие
+          </h3>
+          <p class="about__box-text">
+            Без современных вмешательств колониальные города Кубы не сильно изменились с тех пор, как мушкетные пираты
+            преследовали Карибский бассейн. Атмосфера и архитектура особенно волнуют Гавану, Тринидад и Камагуэй, где
+            грандиозные площади и мощеные улицы рассказывают сказки о богатстве и интригах.
+          </p>
+        </div>
+      </div>
+
+      <div class="about__item" style="background-image: url('images/cubais2.jpg');">
+        <div class="about__box">
+          <h3 class="about__box-title">
+            Удивительные пляжи
+          </h3>
+          <p class="about__box-text">
+            Неважно, останавливаетесь ли вы в роскошном отеле в Гаване или изучаете сельское очарование Виньялес. Не
+            пропустите пляжный курортный город Варадеро, этот пляжный рай по-прежнему следует рассматривать как часть
+            ваших кубинских планов путешествий.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Кубинский Кадиллак -->
+  <section class="cadillac">
+    <div class="container">
+      <h2 class="title">Кубинский Кадиллак</h2>
+      <img class="cadillac-img" src="images/cadillac.jpg" alt="Cadillac">
+      <p class="text">
+        Американское торговое эмбарго с Кубой в 1960 году привело к немедленному отделению тысяч автомобилей 1940-х и
+        1950-х годов, построенных в Детройте от их запасных частей. Кабриолеты всегда были популярны благодаря
+        круглогодичной тропической погоде. Не упустите место для фотосессии в Гаване. Площадь вокруг Капитолия - лестная
+        копия здания Капитолия в Вашингтоне, в дневное время украшены 50-летними американскими автомобилями.
       </p>
     </div>
   </section>
+
+  <!-- Куба в фото и слайдер -->
+  <section class="photo">
+    <div class="container">
+      <div class="photo__info">
+        <h2 class="title">Куба в фото</h2>
+        <p class="text">
+          Когда вы думаете о Карибском море, вы, вероятно, думаете о Кубе. Это одинокая акация, вырисовывающаяся на фоне
+          горизонта, уходящего в вечность. Это снежная гора почти на экваторе и в пределах видимости суровых пустынь.
+          Это пышная, покрытая пальмами береговая линия океана, это Великая рифтовая долина, которая когда-то угрожала
+          разорвать континент на части, и это густые леса, напоминающие сердце континента.
+        </p>
+      </div>
+
+      <div class="slider">
+        <img class="slider-img" src="images/slider/slider1.jpg" alt="Slide">
+        <img class="slider-img" src="images/slider/slider2.jpg" alt="Slide">
+        <img class="slider-img" src="images/slider/slider3.jpg" alt="Slide">
+        <img class="slider-img" src="images/slider/slider4.jpg" alt="Slide">
+        <img class="slider-img" src="images/slider/slider5.jpg" alt="Slide">
+        <img class="slider-img" src="images/slider/slider6.jpg" alt="Slide">
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer-item">
+          <p class="footer-title">КОМПАНИЯ</p>
+          <ul>
+            <li><a class="footer-link" href="#">О компании</a></li>
+            <li><a class="footer-link" href="#">Работай с нами</a></li>
+            <li><a class="footer-link" href="#">Пресса</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <p class="footer-title">ДЕТАЛИ</p>
+          <ul>
+            <li><a class="footer-link" href="#">Бронирование</a></li>
+            <li><a class="footer-link" href="#">Оплата</a></li>
+            <li><a class="footer-link" href="#">Условия</a></li>
+            <li><a class="footer-link" href="#">Политика</a></li>
+            <li><a class="footer-link" href="#">Карта сайта</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <p class="footer-title">КОНТАКТЫ</p>
+          <ul>
+            <li><a class="footer-link footer-link--social footer-link--contact" href="#">Свяжись с нами</a></li>
+            <li><a class="footer-link footer-link--social footer-link--facebook" href="#">Facebook</a></li>
+            <li><a class="footer-link footer-link--social footer-link--instagram" href="#">Instagram</a></li>
+            <li><a class="footer-link footer-link--social footer-link--youtube" href="#">YouTube</a></li>
+            <li><a class="footer-link footer-link--social footer-link--email" href="#">Почта</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <p class="footer-title">БЛОГ</p>
+          <ul>
+            <li><a class="footer-link" href="#">Идеи для фотосессии</a></li>
+            <li><a class="footer-link" href="#">Свадьба на Кубе</a></li>
+            <li><a class="footer-link" href="#">ТОП 10 ресторанов Кубы</a></li>
+            <li><a class="footer-link" href="#">Лучшие достопримечательности Гаваннытика</a></li>
+            <li><a class="footer-link" href="#">Кубинская кухня</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy">© 2020 Все права защищены</p>
+    </div>
+  </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
