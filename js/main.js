@@ -5,12 +5,27 @@ $(function(){
         autoplaySpeed: 2000
     });
 
+    $('.home__slider-adopt').slick({
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000
+    });
+
     $('.skills__slider').slick({
         arrows: false,
         slidesToShow: 4,
         slidesToScroll: 2,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    vertical: true,
+                    verticalSwiping: true
+                }
+            }
+        ]
     })
 
     $('.menu__btn').on('click', function(){

@@ -91,6 +91,11 @@ a{
     width: 100%;
 }
 
+.home__slider-adopt{
+    width: 100%;
+    display: none;
+}
+
 .about{
     text-align: center;
     background-color: #F6F6F6;
@@ -140,6 +145,7 @@ a{
 .portfolio__item-img{
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 44px;
 }
 
 .portfolio__item-link{
@@ -199,6 +205,10 @@ a{
 }
 
 @media(max-width: 600px){
+    .container{
+        padding: 80px 29px 70px;
+    }
+
     .menu{
         position: relative;
     }
@@ -244,13 +254,70 @@ a{
         margin-left: auto;
     }
 
+    .home{
+        margin-bottom: 83px;
+    }
+
     .home .container{
-        padding: 0 10px;
-        height: 100vh;
+        padding: 0 29px;
+        /* height: 100vh; */
     }
 
     .home__info{
         display: block;
+    }
+
+    .home-text{
+        padding-top: 23px;
+    }
+
+    .home-language{
+        display: none;
+    }
+
+    .home__slider{
+        display: none;
+    }
+
+    .home__slider-adopt{
+        display: block;
+    }
+
+    .skills-title{
+        margin-bottom: 50px;
+    }
+
+    .skills__info{
+        margin-bottom: 70px;
+    }
+
+    .skills__slider-item{
+        margin: 40px;
+    }
+
+    .portfolio__item-img{
+        margin-top: 77px;
+        margin-bottom: 35px;
+    }
+
+    .contacts__btn{
+        padding: 13px 100px;
+        white-space: nowrap;
+        margin-bottom: 48px;
+    }
+}
+
+@media(max-width: 360px){
+    .contacts__btn{
+        padding: 13px 65px;
+    }
+
+    .contacts__links{
+        justify-content: space-around;
+    }
+    
+    .contacts-link{
+        margin: 0 10px;
     }
 }
 
